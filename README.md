@@ -4,11 +4,13 @@ A Retrieval-Augmented Generation (RAG) pipeline that answers questions grounded 
 
 ## Architecture
 
+```
 Documents → Chunking → Embeddings → Chroma (vector DB)
                                           ↓
 Question → Retriever → Prompt + LLM → Answer + Sources
                                           ↓
                                   FastAPI / Streamlit
+```
 
 ## Tech Stack
 - LangChain (chains, retrievers, prompt templates)
