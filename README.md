@@ -52,6 +52,3 @@ streamlit run app.py       # UI at localhost:8501
 **Q:** What did the speech say about jobs?
 **A:** The speech highlighted 6.5 million new jobs created in the past year, with 369,000 in manufacturing...
 
-## Known Limitations
-- Currently single-document (multi-document support planned)
-- Basic keyword-based retrieval evaluation, not full RAGAS scoring yet
